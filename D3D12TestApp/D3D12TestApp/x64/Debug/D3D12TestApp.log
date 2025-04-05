@@ -1,0 +1,7 @@
+﻿  D3D12Stuff.cpp
+C:\Workspace\Projects\d3d12-experiments\D3D12TestApp\D3D12Stuff.cpp(460,55): warning C4018: '>': signed/unsigned mismatch
+C:\Workspace\Projects\d3d12-experiments\D3D12TestApp\D3D12Stuff.cpp(464,55): warning C4018: '>': signed/unsigned mismatch
+  D3D12TestApp.cpp
+  UtilsFrameworks.cpp
+  Generating Code...
+  D3D12TestApp.vcxproj -> C:\Workspace\Projects\d3d12-experiments\D3D12TestApp\x64\Debug\D3D12TestApp.exe

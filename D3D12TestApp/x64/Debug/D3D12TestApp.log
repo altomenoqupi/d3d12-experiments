@@ -1,0 +1,46 @@
+﻿  D3D12Stuff.cpp
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.h(61,15): error C2789: 'D3DBaseClient::m_clientImageWidth': an object of const-qualified type must be initialized
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.h(95,13): message : see declaration of 'D3DBaseClient::m_clientImageWidth'
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.h(61,15): error C2789: 'D3DBaseClient::m_clientImageHeight': an object of const-qualified type must be initialized
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.h(96,13): message : see declaration of 'D3DBaseClient::m_clientImageHeight'
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.cpp(190,2): error C2166: l-value specifies const object
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.cpp(241,2): error C2166: l-value specifies const object
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.cpp(242,2): error C2166: l-value specifies const object
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.cpp(243,14): error C3490: 'm_hMainWnd' cannot be modified because it is being accessed through a const object
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.cpp(245,28): error C3490: 'Width' cannot be modified because it is being accessed through a const object
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.cpp(246,28): error C3490: 'Height' cannot be modified because it is being accessed through a const object
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.cpp(247,40): error C3490: 'Numerator' cannot be modified because it is being accessed through a const object
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.cpp(248,40): error C3490: 'Denominator' cannot be modified because it is being accessed through a const object
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.cpp(249,28): error C3490: 'Format' cannot be modified because it is being accessed through a const object
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.cpp(250,28): error C3490: 'ScanlineOrdering' cannot be modified because it is being accessed through a const object
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.cpp(251,28): error C3490: 'Scaling' cannot be modified because it is being accessed through a const object
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.cpp(252,28): error C3490: 'Count' cannot be modified because it is being accessed through a const object
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.cpp(253,28): error C3490: 'Quality' cannot be modified because it is being accessed through a const object
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.cpp(254,17): error C3490: 'BufferUsage' cannot be modified because it is being accessed through a const object
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.cpp(255,17): error C3490: 'BufferCount' cannot be modified because it is being accessed through a const object
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.cpp(256,17): error C3490: 'OutputWindow' cannot be modified because it is being accessed through a const object
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.cpp(257,17): error C3490: 'Windowed' cannot be modified because it is being accessed through a const object
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.cpp(258,17): error C3490: 'SwapEffect' cannot be modified because it is being accessed through a const object
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.cpp(259,17): error C3490: 'Flags' cannot be modified because it is being accessed through a const object
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.cpp(262,33): error C2664: 'HRESULT IDXGIFactory::CreateSwapChain(IUnknown *,DXGI_SWAP_CHAIN_DESC *,IDXGISwapChain **)': cannot convert argument 2 from 'const DXGI_SWAP_CHAIN_DESC *' to 'DXGI_SWAP_CHAIN_DESC *'
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.cpp(264,3): message : Conversion loses qualifiers
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\dxgi.h(2002,43): message : see declaration of 'IDXGIFactory::CreateSwapChain'
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.cpp(262,33): message : while trying to match the argument list '(T *, const DXGI_SWAP_CHAIN_DESC *, T **)'
+          with
+          [
+              T=ID3D12CommandQueue
+          ]
+          and
+          [
+              T=IDXGISwapChain
+          ]
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.cpp(283,4): error C2059: syntax error: 'const'
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.cpp(293,21): error C2065: 'pResource': undeclared identifier
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.cpp(293,4): error C2275: 'ID3D12Resource': expected an expression instead of a type
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.cpp(294,4): error C2059: syntax error: 'const'
+  D3D12TestApp.cpp
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.h(61,15): error C2789: 'D3DBaseClient::m_clientImageWidth': an object of const-qualified type must be initialized
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.h(95,13): message : see declaration of 'D3DBaseClient::m_clientImageWidth'
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.h(61,15): error C2789: 'D3DBaseClient::m_clientImageHeight': an object of const-qualified type must be initialized
+C:\Workspace\Proj\D3D12TestApp\D3D12Stuff.h(96,13): message : see declaration of 'D3DBaseClient::m_clientImageHeight'
+  Generating Code...
