@@ -43,6 +43,9 @@ block
 	srv_1["SRV"] srv_n["..."]
 end
 
+vb_1["Vertex Buffer"]:2
+vbv_1["Vertex Buffer View (no heap)"]
+
 dummy_resource_for_offset["..."]:2
 
 dsv_1-->ds_1
@@ -50,4 +53,5 @@ rtv_1-->rt_1
 uav_1-->ua_1
 cbv_1-->cb_1
 srv_1-->sr_1
+vbv_1-->vb_1
 ```
